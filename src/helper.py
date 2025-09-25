@@ -13,7 +13,7 @@ load_dotenv()
 # -------------------------------
 # Pinecone: init + ensure index
 # -------------------------------
-def init_pinecone(index_name: str = "medical-experiment", dimension: int = 768) -> Tuple[Pinecone, str]:
+def init_pinecone(index_name: str = "data-experiment", dimension: int = 768) -> Tuple[Pinecone, str]:
     """
     Bootstraps Pinecone and ensures your index exists.
     Returns: (pc_client, index_name)
