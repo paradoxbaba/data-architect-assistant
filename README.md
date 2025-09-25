@@ -1,1 +1,1 @@
-# data-architect-assistant
+# medical-assistant
