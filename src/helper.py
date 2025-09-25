@@ -58,7 +58,7 @@ def get_embedding_model():
 # -------------------------------
 def get_chat_model(
     provider: str = "openrouter",
-    model: str = "deepseek/deepseek-chat",  # you can change later
+    model: str = "deepseek/deepseek-chat-v3.1:free",  # you can change later
     temperature: float = 0.2,
     timeout: int = 60,
     max_retries: int = 2,
